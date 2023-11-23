@@ -1,0 +1,185 @@
+
+/* Reset  */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Caveat', serif;
+    
+}
+
+body{
+    background-color: #313866;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    
+}
+
+/* End Reset  */
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30vh;
+    gap: 4rem;
+    
+
+}
+
+.img-linea{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.img-linea:hover{
+    scale: 1.1;
+    
+}
+
+.champs, .lineas{
+    display: flex;
+    gap: 1rem;
+    box-shadow: 10px 10px 50px 0px rgba(250, 233, 1, 0.527);
+    border-radius: 1rem;
+    
+}
+
+.btn-plus{
+    border: none;
+    width: 100px;
+    background-color: transparent;
+}
+
+.btn-icon{
+    color: white;
+    font-size: 2.5rem;
+    border: 2px solid white;
+    padding: .2rem;
+    border-radius: 15px;
+    cursor: pointer;
+
+
+}
+
+.btn-icon:hover{
+    scale: 1.2;
+    color: rgb(250, 233, 1);
+    border-color: rgb(250, 233, 1);;
+}
+
+
+/* Formu */
+
+.formu-champs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;    
+    padding: 250px;
+    width: 25vh;
+    height: 25vh;
+    
+    background-color: #313866;
+    border: solid 2px rgb(250, 233, 1);
+    border-radius: 15px;
+
+   
+    
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+    gap: 3rem;
+    
+     
+
+    
+}
+
+.champ-name-input{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 23rem;
+        font-size: xx-large;
+        text-align: center;
+        
+        
+        
+
+}
+
+.btn-formu-champs{
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: rgb(250, 233, 1);
+    cursor: pointer;
+    font-family: 'Kdam Thmor Pro', serif;
+    text-transform: uppercase;
+
+    
+}
+.btn-formu-champs:hover{
+    scale: 1.1;
+    font-weight: bold;
+
+}
+
+.btn-close{
+    border: none;
+    background-color: transparent;
+    font-size: xx-large;
+    color: rgba(207, 25, 25, 0.733);
+    cursor: pointer;
+}
+
+.close{
+    position: absolute;
+    left: 92%;
+}
+
+
+/* Disabled */
+.disabled{
+    display: none;
+}
+
+
+.atributos p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.icon-atributes{
+    height: 2rem;
+}
+
+.champion{
+    display: flex;
+    width: 350px;
+    height: 270px;
+    border: solid 2px rgb(250, 233, 1);}
+
+.img-atributes{
+    margin-top: 2rem;
+    width: 90px;
+}
+
+.atributos{
+    margin-top: 2rem;
+}
+
