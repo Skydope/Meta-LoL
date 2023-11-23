@@ -33,6 +33,7 @@ async function agregarChampion() {
             const aElement = document.createElement(`a`)
             aElement.target = `_blank`
             aElement.href = `${linkMeta}${champName}`
+            aElement.rel = `nofollow`
             
             const champAtributos = document.createElement(`div`)
             champAtributos.classList.add("atributos")
